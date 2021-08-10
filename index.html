@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Primeiro Crud</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>CRUD de Pessoas</h1>
+        <div class="CRUD">
+          <h2>Adicionar pessoas</h2>
+          <div class="imput">
+            <form action="save.php">
+              <input
+                type="text"
+                id="nome"
+                name="fname"
+                class="inputS"
+                placeholder="Insira seu nome"
+              /><br /><br />
+
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                class="inputS"
+                placeholder="insira sua idade"
+              /><br /><br />
+              <button type="button" class="botao">Adicionar</button>
+            </form>
+          </div>
+          <div class="lista">
+            <ul>
+              <li>Nome / idade <a href="#">apagar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
